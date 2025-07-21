@@ -4,6 +4,16 @@ SubTrackr is a robust and scalable backend API for a subscription tracking appli
 
 -----
 
+<p align="center">
+  <img src="images/Flow-diagram.svg" 
+       alt="SubTrackr API Application Flow and Architecture" 
+       width="850" />
+  <br/>
+  <em>A high-level overview of the <strong>SubTrackr API</strong> architecture, detailing the request lifecycle, modular component structure, and integration with external services for security, database, and automated workflows.</em>
+</p>
+
+-----
+
 ## ✨ Features
 
   * **User Authentication**: Secure user registration and login with JWT-based authentication.

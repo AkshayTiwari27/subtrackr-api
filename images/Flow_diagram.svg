@@ -1,0 +1,349 @@
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1165pt" height="665pt" viewBox="0.00 0.00 1165.08 665.20">
+<g id="graph0" class="graph" transform="scale(1 1) rotate(0) translate(4 661.2)">
+<title>SubTrackrAPI</title>
+<polygon fill="white" stroke="none" points="-4,4 -4,-661.2 1161.08,-661.2 1161.08,4 -4,4"/>
+<text text-anchor="middle" x="578.54" y="-638.8" font-family="Helvetica,sans-Serif" font-size="16.00">SubTrackr API Flow Diagram</text>
+<g id="clust1" class="cluster">
+<title>cluster_entry</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M12,-264C12,-264 82.26,-264 82.26,-264 88.26,-264 94.26,-270 94.26,-276 94.26,-276 94.26,-333 94.26,-333 94.26,-339 88.26,-345 82.26,-345 82.26,-345 12,-345 12,-345 6,-345 0,-339 0,-333 0,-333 0,-276 0,-276 0,-270 6,-264 12,-264"/>
+<text text-anchor="middle" x="47.13" y="-326.6" font-family="Helvetica,sans-Serif" font-size="16.00">Entry Point</text>
+</g>
+<g id="clust2" class="cluster">
+<title>cluster_routes</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M216.86,-182C216.86,-182 337.58,-182 337.58,-182 343.58,-182 349.58,-188 349.58,-194 349.58,-194 349.58,-416 349.58,-416 349.58,-422 343.58,-428 337.58,-428 337.58,-428 216.86,-428 216.86,-428 210.86,-428 204.86,-422 204.86,-416 204.86,-416 204.86,-194 204.86,-194 204.86,-188 210.86,-182 216.86,-182"/>
+<text text-anchor="middle" x="277.22" y="-409.6" font-family="Helvetica,sans-Serif" font-size="16.00">Routes</text>
+</g>
+<g id="clust3" class="cluster">
+<title>cluster_controllers</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M382.58,-207C382.58,-207 519.29,-207 519.29,-207 525.29,-207 531.29,-213 531.29,-219 531.29,-219 531.29,-441 531.29,-441 531.29,-447 525.29,-453 519.29,-453 519.29,-453 382.58,-453 382.58,-453 376.58,-453 370.58,-447 370.58,-441 370.58,-441 370.58,-219 370.58,-219 370.58,-213 376.58,-207 382.58,-207"/>
+<text text-anchor="middle" x="450.93" y="-434.6" font-family="Helvetica,sans-Serif" font-size="16.00">Controllers</text>
+</g>
+<g id="clust4" class="cluster">
+<title>cluster_middlewares</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M393.92,-8C393.92,-8 507.95,-8 507.95,-8 513.95,-8 519.95,-14 519.95,-20 519.95,-20 519.95,-187 519.95,-187 519.95,-193 513.95,-199 507.95,-199 507.95,-199 393.92,-199 393.92,-199 387.92,-199 381.92,-193 381.92,-187 381.92,-187 381.92,-20 381.92,-20 381.92,-14 387.92,-8 393.92,-8"/>
+<text text-anchor="middle" x="450.93" y="-180.6" font-family="Helvetica,sans-Serif" font-size="16.00">Middlewares</text>
+</g>
+<g id="clust5" class="cluster">
+<title>cluster_models</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M564.29,-143C564.29,-143 684.34,-143 684.34,-143 690.34,-143 696.34,-149 696.34,-155 696.34,-155 696.34,-267 696.34,-267 696.34,-273 690.34,-279 684.34,-279 684.34,-279 564.29,-279 564.29,-279 558.29,-279 552.29,-273 552.29,-267 552.29,-267 552.29,-155 552.29,-155 552.29,-149 558.29,-143 564.29,-143"/>
+<text text-anchor="middle" x="624.32" y="-260.6" font-family="Helvetica,sans-Serif" font-size="16.00">Models</text>
+</g>
+<g id="clust6" class="cluster">
+<title>cluster_config</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M804.68,-376C804.68,-376 1137.08,-376 1137.08,-376 1143.08,-376 1149.08,-382 1149.08,-388 1149.08,-388 1149.08,-610 1149.08,-610 1149.08,-616 1143.08,-622 1137.08,-622 1137.08,-622 804.68,-622 804.68,-622 798.68,-622 792.68,-616 792.68,-610 792.68,-610 792.68,-388 792.68,-388 792.68,-382 798.68,-376 804.68,-376"/>
+<text text-anchor="middle" x="970.88" y="-603.6" font-family="Helvetica,sans-Serif" font-size="16.00">Configurations</text>
+</g>
+<g id="clust7" class="cluster">
+<title>cluster_utils</title>
+<path fill="none" stroke="#cccccc" stroke-width="2" stroke-dasharray="5,2" d="M584.97,-287C584.97,-287 893.71,-287 893.71,-287 899.71,-287 905.71,-293 905.71,-299 905.71,-299 905.71,-356 905.71,-356 905.71,-362 899.71,-368 893.71,-368 893.71,-368 584.97,-368 584.97,-368 578.97,-368 572.97,-362 572.97,-356 572.97,-356 572.97,-299 572.97,-299 572.97,-293 578.97,-287 584.97,-287"/>
+<text text-anchor="middle" x="739.34" y="-349.6" font-family="Helvetica,sans-Serif" font-size="16.00">Utilities</text>
+</g>
+<!-- app.js -->
+<g id="node1" class="node">
+<title>app.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M31.63,-273C31.63,-273 61.63,-273 61.63,-273 67.63,-273 73.63,-279 73.63,-285 73.63,-285 73.63,-297 73.63,-297 73.63,-303 67.63,-309 61.63,-309 61.63,-309 31.63,-309 31.63,-309 25.63,-309 19.63,-303 19.63,-297 19.63,-297 19.63,-285 19.63,-285 19.63,-279 25.63,-273 31.63,-273"/>
+<text text-anchor="middle" x="46.63" y="-287.7" font-family="Helvetica,sans-Serif" font-size="12.00">app.js</text>
+</g>
+<!-- auth.routes.js -->
+<g id="node2" class="node">
+<title>auth.routes.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M245.2,-356C245.2,-356 309.24,-356 309.24,-356 315.24,-356 321.24,-362 321.24,-368 321.24,-368 321.24,-380 321.24,-380 321.24,-386 315.24,-392 309.24,-392 309.24,-392 245.2,-392 245.2,-392 239.2,-392 233.2,-386 233.2,-380 233.2,-380 233.2,-368 233.2,-368 233.2,-362 239.2,-356 245.2,-356"/>
+<text text-anchor="middle" x="277.22" y="-370.7" font-family="Helvetica,sans-Serif" font-size="12.00">auth.routes.js</text>
+</g>
+<!-- app.js&#45;&gt;auth.routes.js -->
+<g id="edge1" class="edge">
+<title>app.js-&gt;auth.routes.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M55.63,-309.42C55.63,-333.87 55.63,-374 55.63,-374 55.63,-374 222.64,-374 222.64,-374"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="222.64,-376.8 230.64,-374 222.64,-371.2 222.64,-376.8"/>
+<text text-anchor="middle" x="149.56" y="-362" font-family="Helvetica,sans-Serif" font-size="10.00">/api/v1/auth</text>
+</g>
+<!-- user.routes.js -->
+<g id="node3" class="node">
+<title>user.routes.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M245.2,-191C245.2,-191 309.23,-191 309.23,-191 315.23,-191 321.23,-197 321.23,-203 321.23,-203 321.23,-215 321.23,-215 321.23,-221 315.23,-227 309.23,-227 309.23,-227 245.2,-227 245.2,-227 239.2,-227 233.2,-221 233.2,-215 233.2,-215 233.2,-203 233.2,-203 233.2,-197 239.2,-191 245.2,-191"/>
+<text text-anchor="middle" x="277.22" y="-205.7" font-family="Helvetica,sans-Serif" font-size="12.00">user.routes.js</text>
+</g>
+<!-- app.js&#45;&gt;user.routes.js -->
+<g id="edge2" class="edge">
+<title>app.js-&gt;user.routes.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M60.13,-272.8C60.13,-248.64 60.13,-209 60.13,-209 60.13,-209 222.49,-209 222.49,-209"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="222.49,-211.8 230.49,-209 222.49,-206.2 222.49,-211.8"/>
+<text text-anchor="middle" x="149.56" y="-227" font-family="Helvetica,sans-Serif" font-size="10.00">/api/v1/users</text>
+</g>
+<!-- subscription.routes.js -->
+<g id="node4" class="node">
+<title>subscription.routes.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M224.86,-246C224.86,-246 329.58,-246 329.58,-246 335.58,-246 341.58,-252 341.58,-258 341.58,-258 341.58,-270 341.58,-270 341.58,-276 335.58,-282 329.58,-282 329.58,-282 224.86,-282 224.86,-282 218.86,-282 212.86,-276 212.86,-270 212.86,-270 212.86,-258 212.86,-258 212.86,-252 218.86,-246 224.86,-246"/>
+<text text-anchor="middle" x="277.22" y="-260.7" font-family="Helvetica,sans-Serif" font-size="12.00">subscription.routes.js</text>
+</g>
+<!-- app.js&#45;&gt;subscription.routes.js -->
+<g id="edge3" class="edge">
+<title>app.js-&gt;subscription.routes.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M73.99,-277.5C73.99,-277.5 202.09,-277.5 202.09,-277.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="202.09,-280.3 210.09,-277.5 202.09,-274.7 202.09,-280.3"/>
+<text text-anchor="middle" x="149.56" y="-272" font-family="Helvetica,sans-Serif" font-size="10.00">/api/v1/subscriptions</text>
+</g>
+<!-- workflow.routes.js -->
+<g id="node5" class="node">
+<title>workflow.routes.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M233.54,-301C233.54,-301 320.9,-301 320.9,-301 326.9,-301 332.9,-307 332.9,-313 332.9,-313 332.9,-325 332.9,-325 332.9,-331 326.9,-337 320.9,-337 320.9,-337 233.54,-337 233.54,-337 227.54,-337 221.54,-331 221.54,-325 221.54,-325 221.54,-313 221.54,-313 221.54,-307 227.54,-301 233.54,-301"/>
+<text text-anchor="middle" x="277.22" y="-315.7" font-family="Helvetica,sans-Serif" font-size="12.00">workflow.routes.js</text>
+</g>
+<!-- app.js&#45;&gt;workflow.routes.js -->
+<g id="edge4" class="edge">
+<title>app.js-&gt;workflow.routes.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M73.99,-305C73.99,-305 211.07,-305 211.07,-305"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="211.07,-307.8 219.07,-305 211.07,-302.2 211.07,-307.8"/>
+<text text-anchor="middle" x="149.56" y="-312" font-family="Helvetica,sans-Serif" font-size="10.00">/api/v1/workflows</text>
+</g>
+<!-- error.middleware.js -->
+<g id="node11" class="node">
+<title>error.middleware.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M403.92,-17C403.92,-17 497.95,-17 497.95,-17 503.95,-17 509.95,-23 509.95,-29 509.95,-29 509.95,-41 509.95,-41 509.95,-47 503.95,-53 497.95,-53 497.95,-53 403.92,-53 403.92,-53 397.92,-53 391.92,-47 391.92,-41 391.92,-41 391.92,-29 391.92,-29 391.92,-23 397.92,-17 403.92,-17"/>
+<text text-anchor="middle" x="450.93" y="-31.7" font-family="Helvetica,sans-Serif" font-size="12.00">error.middleware.js</text>
+</g>
+<!-- app.js&#45;&gt;error.middleware.js -->
+<g id="edge5" class="edge">
+<title>app.js-&gt;error.middleware.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M33.13,-272.59C33.13,-213.89 33.13,-35 33.13,-35 33.13,-35 381.25,-35 381.25,-35"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="381.25,-37.8 389.25,-35 381.25,-32.2 381.25,-37.8"/>
+<text text-anchor="middle" x="277.22" y="-45" font-family="Helvetica,sans-Serif" font-size="10.00">error handling</text>
+</g>
+<!-- arcjet.middleware.js -->
+<g id="node12" class="node">
+<title>arcjet.middleware.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M401.92,-72C401.92,-72 499.95,-72 499.95,-72 505.95,-72 511.95,-78 511.95,-84 511.95,-84 511.95,-96 511.95,-96 511.95,-102 505.95,-108 499.95,-108 499.95,-108 401.92,-108 401.92,-108 395.92,-108 389.92,-102 389.92,-96 389.92,-96 389.92,-84 389.92,-84 389.92,-78 395.92,-72 401.92,-72"/>
+<text text-anchor="middle" x="450.93" y="-86.7" font-family="Helvetica,sans-Serif" font-size="12.00">arcjet.middleware.js</text>
+</g>
+<!-- app.js&#45;&gt;arcjet.middleware.js -->
+<g id="edge6" class="edge">
+<title>app.js-&gt;arcjet.middleware.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M46.63,-272.81C46.63,-223.33 46.63,-90 46.63,-90 46.63,-90 379.26,-90 379.26,-90"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="379.26,-92.8 387.26,-90 379.26,-87.2 379.26,-92.8"/>
+<text text-anchor="middle" x="277.22" y="-93" font-family="Helvetica,sans-Serif" font-size="10.00">security</text>
+</g>
+<!-- mongodb.js -->
+<g id="node16" class="node">
+<title>mongodb.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M817.34,-495C817.34,-495 871.38,-495 871.38,-495 877.38,-495 883.38,-501 883.38,-507 883.38,-507 883.38,-519 883.38,-519 883.38,-525 877.38,-531 871.38,-531 871.38,-531 817.34,-531 817.34,-531 811.34,-531 805.34,-525 805.34,-519 805.34,-519 805.34,-507 805.34,-507 805.34,-501 811.34,-495 817.34,-495"/>
+<text text-anchor="middle" x="844.36" y="-509.7" font-family="Helvetica,sans-Serif" font-size="12.00">mongodb.js</text>
+</g>
+<!-- app.js&#45;&gt;mongodb.js -->
+<g id="edge7" class="edge">
+<title>app.js-&gt;mongodb.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M37.63,-309.17C37.63,-362.19 37.63,-513 37.63,-513 37.63,-513 794.63,-513 794.63,-513"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="794.63,-515.8 802.63,-513 794.63,-510.2 794.63,-515.8"/>
+<text text-anchor="middle" x="450.93" y="-499" font-family="Helvetica,sans-Serif" font-size="10.00">connect to db</text>
+</g>
+<!-- auth.controller.js -->
+<g id="node6" class="node">
+<title>auth.controller.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M410.91,-381C410.91,-381 490.96,-381 490.96,-381 496.96,-381 502.96,-387 502.96,-393 502.96,-393 502.96,-405 502.96,-405 502.96,-411 496.96,-417 490.96,-417 490.96,-417 410.91,-417 410.91,-417 404.91,-417 398.91,-411 398.91,-405 398.91,-405 398.91,-393 398.91,-393 398.91,-387 404.91,-381 410.91,-381"/>
+<text text-anchor="middle" x="450.93" y="-395.7" font-family="Helvetica,sans-Serif" font-size="12.00">auth.controller.js</text>
+</g>
+<!-- auth.routes.js&#45;&gt;auth.controller.js -->
+<g id="edge8" class="edge">
+<title>auth.routes.js-&gt;auth.controller.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M321.5,-386.5C321.5,-386.5 388.43,-386.5 388.43,-386.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="388.43,-389.3 396.43,-386.5 388.43,-383.7 388.43,-389.3"/>
+</g>
+<!-- user.controller.js -->
+<g id="node7" class="node">
+<title>user.controller.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M410.92,-216C410.92,-216 490.95,-216 490.95,-216 496.95,-216 502.95,-222 502.95,-228 502.95,-228 502.95,-240 502.95,-240 502.95,-246 496.95,-252 490.95,-252 490.95,-252 410.92,-252 410.92,-252 404.92,-252 398.92,-246 398.92,-240 398.92,-240 398.92,-228 398.92,-228 398.92,-222 404.92,-216 410.92,-216"/>
+<text text-anchor="middle" x="450.93" y="-230.7" font-family="Helvetica,sans-Serif" font-size="12.00">user.controller.js</text>
+</g>
+<!-- user.routes.js&#45;&gt;user.controller.js -->
+<g id="edge9" class="edge">
+<title>user.routes.js-&gt;user.controller.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M321.5,-221.5C321.5,-221.5 388.43,-221.5 388.43,-221.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="388.43,-224.3 396.43,-221.5 388.43,-218.7 388.43,-224.3"/>
+</g>
+<!-- auth.middleware.js -->
+<g id="node10" class="node">
+<title>auth.middleware.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M404.91,-127C404.91,-127 496.96,-127 496.96,-127 502.96,-127 508.96,-133 508.96,-139 508.96,-139 508.96,-151 508.96,-151 508.96,-157 502.96,-163 496.96,-163 496.96,-163 404.91,-163 404.91,-163 398.91,-163 392.91,-157 392.91,-151 392.91,-151 392.91,-139 392.91,-139 392.91,-133 398.91,-127 404.91,-127"/>
+<text text-anchor="middle" x="450.93" y="-141.7" font-family="Helvetica,sans-Serif" font-size="12.00">auth.middleware.js</text>
+</g>
+<!-- user.routes.js&#45;&gt;auth.middleware.js -->
+<g id="edge10" class="edge">
+<title>user.routes.js-&gt;auth.middleware.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M277.22,-190.56C277.22,-169.78 277.22,-138.83 277.22,-138.83 277.22,-138.83 382.34,-138.83 382.34,-138.83"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="382.34,-141.63 390.34,-138.83 382.34,-136.03 382.34,-141.63"/>
+</g>
+<!-- subscription.controller.js -->
+<g id="node8" class="node">
+<title>subscription.controller.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M390.58,-326C390.58,-326 511.29,-326 511.29,-326 517.29,-326 523.29,-332 523.29,-338 523.29,-338 523.29,-350 523.29,-350 523.29,-356 517.29,-362 511.29,-362 511.29,-362 390.58,-362 390.58,-362 384.58,-362 378.58,-356 378.58,-350 378.58,-350 378.58,-338 378.58,-338 378.58,-332 384.58,-326 390.58,-326"/>
+<text text-anchor="middle" x="450.93" y="-340.7" font-family="Helvetica,sans-Serif" font-size="12.00">subscription.controller.js</text>
+</g>
+<!-- subscription.routes.js&#45;&gt;subscription.controller.js -->
+<g id="edge11" class="edge">
+<title>subscription.routes.js-&gt;subscription.controller.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M342.05,-276.5C363.93,-276.5 382.91,-276.5 382.91,-276.5 382.91,-276.5 382.91,-315.29 382.91,-315.29"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="380.11,-315.28 382.91,-323.29 385.71,-315.29 380.11,-315.28"/>
+</g>
+<!-- subscription.routes.js&#45;&gt;auth.middleware.js -->
+<g id="edge12" class="edge">
+<title>subscription.routes.js-&gt;auth.middleware.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M331.4,-245.62C331.4,-213.65 331.4,-151.17 331.4,-151.17 331.4,-151.17 382.3,-151.17 382.3,-151.17"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="382.3,-153.97 390.3,-151.17 382.3,-148.37 382.3,-153.97"/>
+</g>
+<!-- workflow.controller.js -->
+<g id="node9" class="node">
+<title>workflow.controller.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M399.25,-271C399.25,-271 502.62,-271 502.62,-271 508.62,-271 514.62,-277 514.62,-283 514.62,-283 514.62,-295 514.62,-295 514.62,-301 508.62,-307 502.62,-307 502.62,-307 399.25,-307 399.25,-307 393.25,-307 387.25,-301 387.25,-295 387.25,-295 387.25,-283 387.25,-283 387.25,-277 393.25,-271 399.25,-271"/>
+<text text-anchor="middle" x="450.93" y="-285.7" font-family="Helvetica,sans-Serif" font-size="12.00">workflow.controller.js</text>
+</g>
+<!-- workflow.routes.js&#45;&gt;workflow.controller.js -->
+<g id="edge13" class="edge">
+<title>workflow.routes.js-&gt;workflow.controller.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M333.14,-304C333.14,-304 376.69,-304 376.69,-304"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="376.69,-306.8 384.69,-304 376.69,-301.2 376.69,-306.8"/>
+</g>
+<!-- user.model.js -->
+<g id="node13" class="node">
+<title>user.model.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M592.64,-152C592.64,-152 656,-152 656,-152 662,-152 668,-158 668,-164 668,-164 668,-176 668,-176 668,-182 662,-188 656,-188 656,-188 592.64,-188 592.64,-188 586.64,-188 580.64,-182 580.64,-176 580.64,-176 580.64,-164 580.64,-164 580.64,-158 586.64,-152 592.64,-152"/>
+<text text-anchor="middle" x="624.32" y="-166.7" font-family="Helvetica,sans-Serif" font-size="12.00">user.model.js</text>
+</g>
+<!-- auth.controller.js&#45;&gt;user.model.js -->
+<g id="edge14" class="edge">
+<title>auth.controller.js-&gt;user.model.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M503.26,-395.5C523.46,-395.5 541.79,-395.5 541.79,-395.5 541.79,-395.5 541.79,-180.17 541.79,-180.17 541.79,-180.17 569.89,-180.17 569.89,-180.17"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="569.89,-182.97 577.89,-180.17 569.89,-177.37 569.89,-182.97"/>
+</g>
+<!-- env.js -->
+<g id="node15" class="node">
+<title>env.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M1099.08,-467C1099.08,-467 1129.08,-467 1129.08,-467 1135.08,-467 1141.08,-473 1141.08,-479 1141.08,-479 1141.08,-491 1141.08,-491 1141.08,-497 1135.08,-503 1129.08,-503 1129.08,-503 1099.08,-503 1099.08,-503 1093.08,-503 1087.08,-497 1087.08,-491 1087.08,-491 1087.08,-479 1087.08,-479 1087.08,-473 1093.08,-467 1099.08,-467"/>
+<text text-anchor="middle" x="1114.08" y="-481.7" font-family="Helvetica,sans-Serif" font-size="12.00">env.js</text>
+</g>
+<!-- auth.controller.js&#45;&gt;env.js -->
+<g id="edge15" class="edge">
+<title>auth.controller.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M450.93,-417.34C450.93,-442.74 450.93,-485.5 450.93,-485.5 450.93,-485.5 1076.58,-485.5 1076.58,-485.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1076.58,-488.3 1084.58,-485.5 1076.58,-482.7 1076.58,-488.3"/>
+<text text-anchor="middle" x="739.68" y="-618" font-family="Helvetica,sans-Serif" font-size="10.00">JWT_SECRET</text>
+</g>
+<!-- user.controller.js&#45;&gt;user.model.js -->
+<g id="edge16" class="edge">
+<title>user.controller.js-&gt;user.model.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M450.93,-215.68C450.93,-197.35 450.93,-171.83 450.93,-171.83 450.93,-171.83 570.3,-171.83 570.3,-171.83"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="570.3,-174.63 578.3,-171.83 570.3,-169.03 570.3,-174.63"/>
+</g>
+<!-- subscription.model.js -->
+<g id="node14" class="node">
+<title>subscription.model.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M572.29,-207C572.29,-207 676.34,-207 676.34,-207 682.34,-207 688.34,-213 688.34,-219 688.34,-219 688.34,-231 688.34,-231 688.34,-237 682.34,-243 676.34,-243 676.34,-243 572.29,-243 572.29,-243 566.29,-243 560.29,-237 560.29,-231 560.29,-231 560.29,-219 560.29,-219 560.29,-213 566.29,-207 572.29,-207"/>
+<text text-anchor="middle" x="624.32" y="-221.7" font-family="Helvetica,sans-Serif" font-size="12.00">subscription.model.js</text>
+</g>
+<!-- subscription.controller.js&#45;&gt;subscription.model.js -->
+<g id="edge17" class="edge">
+<title>subscription.controller.js-&gt;subscription.model.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M523.64,-329C550.3,-329 574.08,-329 574.08,-329 574.08,-329 574.08,-253.39 574.08,-253.39"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="576.88,-253.39 574.08,-245.39 571.28,-253.39 576.88,-253.39"/>
+</g>
+<!-- upstash.js -->
+<g id="node18" class="node">
+<title>upstash.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M821.35,-440C821.35,-440 867.38,-440 867.38,-440 873.38,-440 879.38,-446 879.38,-452 879.38,-452 879.38,-464 879.38,-464 879.38,-470 873.38,-476 867.38,-476 867.38,-476 821.35,-476 821.35,-476 815.35,-476 809.35,-470 809.35,-464 809.35,-464 809.35,-452 809.35,-452 809.35,-446 815.35,-440 821.35,-440"/>
+<text text-anchor="middle" x="844.36" y="-454.7" font-family="Helvetica,sans-Serif" font-size="12.00">upstash.js</text>
+</g>
+<!-- subscription.controller.js&#45;&gt;upstash.js -->
+<g id="edge18" class="edge">
+<title>subscription.controller.js-&gt;upstash.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M513.12,-362.32C513.12,-394.54 513.12,-458 513.12,-458 513.12,-458 798.64,-458 798.64,-458"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="798.64,-460.8 806.64,-458 798.64,-455.2 798.64,-460.8"/>
+</g>
+<!-- workflow.controller.js&#45;&gt;subscription.model.js -->
+<g id="edge19" class="edge">
+<title>workflow.controller.js-&gt;subscription.model.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M514.84,-283C541.86,-283 567.19,-283 567.19,-283 567.19,-283 567.19,-253.62 567.19,-253.62"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="569.99,-253.62 567.19,-245.62 564.39,-253.62 569.99,-253.62"/>
+</g>
+<!-- send&#45;email.js -->
+<g id="node20" class="node">
+<title>send-email.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M592.97,-296C592.97,-296 655.67,-296 655.67,-296 661.67,-296 667.67,-302 667.67,-308 667.67,-308 667.67,-320 667.67,-320 667.67,-326 661.67,-332 655.67,-332 655.67,-332 592.97,-332 592.97,-332 586.97,-332 580.97,-326 580.97,-320 580.97,-320 580.97,-308 580.97,-308 580.97,-302 586.97,-296 592.97,-296"/>
+<text text-anchor="middle" x="624.32" y="-310.7" font-family="Helvetica,sans-Serif" font-size="12.00">send-email.js</text>
+</g>
+<!-- workflow.controller.js&#45;&gt;send&#45;email.js -->
+<g id="edge20" class="edge">
+<title>workflow.controller.js-&gt;send-email.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M515,-301.5C515,-301.5 570.23,-301.5 570.23,-301.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="570.23,-304.3 578.23,-301.5 570.23,-298.7 570.23,-304.3"/>
+</g>
+<!-- auth.middleware.js&#45;&gt;user.model.js -->
+<g id="edge21" class="edge">
+<title>auth.middleware.js-&gt;user.model.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M509.15,-157.5C509.15,-157.5 569.97,-157.5 569.97,-157.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="569.97,-160.3 577.97,-157.5 569.97,-154.7 569.97,-160.3"/>
+</g>
+<!-- auth.middleware.js&#45;&gt;env.js -->
+<g id="edge22" class="edge">
+<title>auth.middleware.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M509.41,-139C672.94,-139 1123.08,-139 1123.08,-139 1123.08,-139 1133.35,-139 1133.35,-139"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1120.6,-456.53 1123.15,-464.62 1126.2,-456.71 1120.6,-456.53"/>
+<text text-anchor="middle" x="739.68" y="-126" font-family="Helvetica,sans-Serif" font-size="10.00">JWT_SECRET</text>
+</g>
+<!-- mongodb.js&#45;&gt;env.js -->
+<g id="edge25" class="edge">
+<title>mongodb.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M883.87,-499C883.87,-499 1076.5,-499 1076.5,-499"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1076.5,-501.8 1084.5,-499 1076.5,-496.2 1076.5,-501.8"/>
+<text text-anchor="middle" x="992.39" y="-506" font-family="Helvetica,sans-Serif" font-size="10.00">DB_URI</text>
+</g>
+<!-- nodemailer.js -->
+<g id="node17" class="node">
+<title>nodemailer.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M812.68,-385C812.68,-385 876.04,-385 876.04,-385 882.04,-385 888.04,-391 888.04,-397 888.04,-397 888.04,-409 888.04,-409 888.04,-415 882.04,-421 876.04,-421 876.04,-421 812.68,-421 812.68,-421 806.68,-421 800.68,-415 800.68,-409 800.68,-409 800.68,-397 800.68,-397 800.68,-391 806.68,-385 812.68,-385"/>
+<text text-anchor="middle" x="844.36" y="-399.7" font-family="Helvetica,sans-Serif" font-size="12.00">nodemailer.js</text>
+</g>
+<!-- nodemailer.js&#45;&gt;env.js -->
+<g id="edge26" class="edge">
+<title>nodemailer.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M888.29,-403C962.6,-403 1105.08,-403 1105.08,-403 1105.08,-403 1115.35,-403 1115.35,-403"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1103.95,-456.22 1105.44,-464.56 1109.48,-457.11 1103.95,-456.22"/>
+<text text-anchor="middle" x="992.39" y="-421" font-family="Helvetica,sans-Serif" font-size="10.00">EMAIL_PASSWORD</text>
+</g>
+<!-- upstash.js&#45;&gt;env.js -->
+<g id="edge27" class="edge">
+<title>upstash.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M879.62,-471.5C879.62,-471.5 1076.69,-471.5 1076.69,-471.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1076.69,-474.3 1084.69,-471.5 1076.69,-468.7 1076.69,-474.3"/>
+<text text-anchor="middle" x="992.39" y="-466" font-family="Helvetica,sans-Serif" font-size="10.00">QSTASH_TOKEN, QSTASH_URL</text>
+</g>
+<!-- arcjet.js -->
+<g id="node19" class="node">
+<title>arcjet.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M827.69,-550C827.69,-550 861.03,-550 861.03,-550 867.03,-550 873.03,-556 873.03,-562 873.03,-562 873.03,-574 873.03,-574 873.03,-580 867.03,-586 861.03,-586 861.03,-586 827.69,-586 827.69,-586 821.69,-586 815.69,-580 815.69,-574 815.69,-574 815.69,-562 815.69,-562 815.69,-556 821.69,-550 827.69,-550"/>
+<text text-anchor="middle" x="844.36" y="-564.7" font-family="Helvetica,sans-Serif" font-size="12.00">arcjet.js</text>
+</g>
+<!-- arcjet.js&#45;&gt;env.js -->
+<g id="edge28" class="edge">
+<title>arcjet.js-&gt;env.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M873.48,-568C943.23,-568 1114.08,-568 1114.08,-568 1114.08,-568 1114.08,-513.69 1114.08,-513.69"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="1116.88,-513.69 1114.08,-505.69 1111.28,-513.69 1116.88,-513.69"/>
+<text text-anchor="middle" x="992.39" y="-556" font-family="Helvetica,sans-Serif" font-size="10.00">ARCJET_KEY</text>
+</g>
+<!-- send&#45;email.js&#45;&gt;nodemailer.js -->
+<g id="edge24" class="edge">
+<title>send-email.js-&gt;nodemailer.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M624.32,-332.28C624.32,-359.23 624.32,-406.5 624.32,-406.5 624.32,-406.5 790.09,-406.5 790.09,-406.5"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="790.09,-409.3 798.09,-406.5 790.09,-403.7 790.09,-409.3"/>
+</g>
+<!-- email&#45;template.js -->
+<g id="node21" class="node">
+<title>email-template.js</title>
+<path fill="#f0f7ff" stroke="#4a90e2" stroke-width="1.5" d="M803.01,-296C803.01,-296 885.71,-296 885.71,-296 891.71,-296 897.71,-302 897.71,-308 897.71,-308 897.71,-320 897.71,-320 897.71,-326 891.71,-332 885.71,-332 885.71,-332 803.01,-332 803.01,-332 797.01,-332 791.01,-326 791.01,-320 791.01,-320 791.01,-308 791.01,-308 791.01,-302 797.01,-296 803.01,-296"/>
+<text text-anchor="middle" x="844.36" y="-310.7" font-family="Helvetica,sans-Serif" font-size="12.00">email-template.js</text>
+</g>
+<!-- send&#45;email.js&#45;&gt;email&#45;template.js -->
+<g id="edge23" class="edge">
+<title>send-email.js-&gt;email-template.js</title>
+<path fill="none" stroke="#333333" stroke-width="1.5" d="M668.05,-314C668.05,-314 780.32,-314 780.32,-314"/>
+<polygon fill="#333333" stroke="#333333" stroke-width="1.5" points="780.32,-316.8 788.32,-314 780.32,-311.2 780.32,-316.8"/>
+</g>
+</g>
+</svg>

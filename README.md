@@ -5,7 +5,7 @@ SubTrackr is a robust and scalable backend API for a subscription tracking appli
 -----
 
 <p align="center">
-  <img src="images/Flow-diagram.svg" 
+  <img src="images/Flow_diagram.svg" 
        alt="SubTrackr API Application Flow and Architecture" 
        width="850" />
   <br/>

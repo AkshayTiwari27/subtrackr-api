@@ -2,7 +2,6 @@
 
 SubTrackr is a robust and scalable backend API for a subscription tracking application. It allows users to manage their subscriptions and receive timely reminders for renewals. This project is built with a modern, production-ready technology stack and follows best practices in API development, security, and application architecture.
 
-
 <p align="center">
   <img src="images/Flow_diagram.svg" 
        alt="SubTrackr API Application Flow and Architecture" 
